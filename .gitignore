@@ -2,6 +2,4 @@ node_modules/
 dist/
 .DS_Store
 *.log
-app/evidence/scripts/node_modules/
-app/evidence/scripts/package.json
-app/evidence/scripts/package-lock.json
+

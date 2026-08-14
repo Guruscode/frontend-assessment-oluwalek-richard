@@ -2,7 +2,7 @@
 
 **Position applied for: Senior Front-End Engineer**
 
-- `PART-A.md` — answers to the 13 written questions
+- `PART-A.pdf` — answers to the 13 written questions
 - `app/` — Part B: order-list screen (Vite + React + TypeScript)
 - `app/NOTES.md` — how each constraint was met, plus the decisions made
 - `app/evidence/` — render-count screenshots (before/after) and print PDF
@@ -16,6 +16,7 @@ npm run dev
 ```
 
 Open http://localhost:5173
+No backend required — data is generated in the browser.
 
 ## The screen
 
