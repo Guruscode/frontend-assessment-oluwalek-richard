@@ -27,9 +27,3 @@ You can see it live: run the app, open with ?debug=1, type into the search box a
 3. replaceState while the user is typing, pushState only for discrete actions (status filter, clear, etc.).  
    Pushing every keystroke would make the back button painful. Debouncing the search was the other option but it adds noticeable lag and needs timers. replaceState feels right here; the only time you'd want per-keystroke history is if users actually needed to step back through partial search terms, which they don't.
 
-## What's unfinished
-
-- No tests (assessment didn't ask for them).
-- Print CSS is basic — just break-inside: avoid on rows. No fancy headers/footers or page numbers.
-- If the currently focused row disappears because of a filter change, focus drops to body. I didn't handle restoring it.
-- The render counter mutates a module-level Map during render. It's gated behind ?debug=1 so it stays out of the normal path.
